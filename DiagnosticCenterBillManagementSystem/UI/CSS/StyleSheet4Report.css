@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.Main {
+    background-color: turquoise;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    width: 730px;
+}
+
+.Header {
+    text-align: center;
+    transition: font-style 1s, transform 2s;
+}
+
+.Header:hover {
+    font-style: italic;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+#Show {
+    float: right;
+}
+
+.Footer {
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 20px;
+    float: right;
+}
+
+p {
+    font-family: "Lucida Console";
+    color: black;
+}

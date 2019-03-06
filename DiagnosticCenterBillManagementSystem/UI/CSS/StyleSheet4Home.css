@@ -1,0 +1,74 @@
+﻿body {
+}
+
+#Header {
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman";
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    transition: h1 2s, width 5s;
+}
+
+#Header:hover {
+    transform: rotateX(180deg);
+    background-color: deeppink;
+}
+
+#Navigation {
+    background-color: bisque;
+    color: blue;
+    margin-top: 10px;
+    padding: 1px 0px 0px 15px;
+    width: 240px;
+    height: 550px;
+    float: left;
+}
+
+dd {
+    padding: 5px;
+}
+
+dt {
+    font-family: "Lucida Calligraphy";
+    font-size: 22px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: black;
+    transition: background-color 2s, font-size 1s;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+a#HomeLink {
+    font-family: "Lucida Calligraphy";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+#HomeBar, #aboutCoder {
+    font-family: "Lucida Calligraphy";
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 260px;
+    transition: font-size 2s;
+}
+
+#aboutCoder:hover {
+    font-size: 50px;
+    color: red;
+    transform: rotate(-10deg);
+}

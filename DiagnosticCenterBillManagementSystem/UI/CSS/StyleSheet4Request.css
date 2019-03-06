@@ -1,0 +1,45 @@
+﻿body {
+}
+
+#EntryBar, #PayBar {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: mediumspringgreen;
+    text-align: center;
+    width: 730px;
+}
+
+#fee, #add {
+    float: right;
+}
+
+#Save:hover {
+    background-color: crimson;
+}
+
+#EntryName, #PayName {
+    transition: font-style 1s, transform 2s;
+}
+
+#EntryName:hover, #PayName:hover {
+    font-style: italic;
+    transform: rotate(-20deg);
+    font-size: 20px;
+}
+
+.GridView {
+    background-color: bisque;
+    float: left;
+}
+
+.afterGV {
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+p {
+    font-family: "Lucida Console";
+    color: black;
+}

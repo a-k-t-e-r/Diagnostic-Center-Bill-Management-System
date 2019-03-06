@@ -1,0 +1,34 @@
+﻿body {
+}
+
+#TypeBar, #TestBar {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: peru;
+    text-align: center;
+    width: 730px;
+}
+
+#Save {
+    float: right;
+}
+
+#Save:hover {
+    background-color: crimson;
+}
+
+#TypeName, #TestName {
+    transition: font-style 1s, transform 2s;
+}
+
+#TypeName:hover, #TestName:hover {
+    font-style: italic;
+    transform: rotate(20deg);
+    font-size: 20px;
+}
+
+p {
+    color: palegreen;
+    font-family: "Lucida Console";
+}
